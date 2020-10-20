@@ -1,0 +1,32 @@
+name: pycrypto
+channels:
+- defaults
+dependencies:
+- matplotlib
+- numpy
+- openssl
+- pandas
+- pandas-datareader
+- patsy
+- pip
+- pyparsing
+- pyqt
+- python
+- python-dateutil
+- pytz
+- qt
+- requests
+- setuptools
+- sip
+- six
+- statsmodels
+- pip:
+  - certifi
+  - chardet
+  - idna
+  - inflection
+  - more-itertools
+  - quandl
+  - urllib3
+  - pycoingecko
+prefix: \\Anaconda3\envs\pyfinance
