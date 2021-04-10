@@ -14,12 +14,14 @@ dependencies:
 - python
 - python-dateutil
 - pytz
+- ipywidgets
 - qt
 - requests
 - setuptools
 - sip
 - six
 - statsmodels
+- pywin32
 - pip:
   - certifi
   - chardet
@@ -29,4 +31,7 @@ dependencies:
   - quandl
   - urllib3
   - pycoingecko
-prefix: \\Anaconda3\envs\pyfinance
+  - jupyterthemes
+  - notebook
+  - plotly
+prefix: \\Anaconda3\envs\crypto
